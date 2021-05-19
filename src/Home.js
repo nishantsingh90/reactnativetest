@@ -12,16 +12,7 @@ class Home extends React.Component {
         return (
     
             <View style={styles.container}>
-              {/* <Text>Hello World</Text>
-              <Button style={styles.button}
-                title="Press me"
-                onPress={() => Alert.alert('Simple Button pressed')}
-              />
-               <Button
-                title="Press me"
-                onPress={() => Alert.alert('Simple Button pressed')}
-              /> */}
-        
+             
         <TouchableOpacity onPress={() =>
             this.props.navigation.navigate('Question')
           } style={styles.styleButton1}>
@@ -37,9 +28,7 @@ class Home extends React.Component {
             </View>
             
             
-          );
-    }
-  }
+          );}}
 
   
 const styles = StyleSheet.create({
